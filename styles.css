@@ -1,0 +1,63 @@
+.skills {
+  width: 600px;
+  margin: auto;
+  padding: 10px;
+}
+
+.container {
+  width: 100%;
+  background-color: rgb(207, 203, 197);
+  border-radius: 4rem;
+}
+
+.porcen {
+  text-align: right;
+  padding: 10px;
+  font-weight: 800;
+  color: aliceblue;
+}
+
+.html {
+  background-color: rgb(161, 67, 4);
+  animation: html 2s forwards;
+  border-radius: 4rem;
+}
+
+.css {
+  background-color: rgb(3, 94, 199);
+  animation: css 2s forwards;
+  border-radius: 4rem;
+}
+
+.js {
+  background-color: rgb(255, 217, 0);
+  animation: js 2s forwards;
+  border-radius: 4rem;
+}
+
+@keyframes html {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@keyframes css {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 70%;
+    }
+  }
+
+  @keyframes js {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 50%;
+    }
+  }
